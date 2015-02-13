@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<widget xmlns   = "http://www.w3.org/ns/widgets"
+xmlns:gap   = "http://phonegap.com/ns/1.0"
+id          = "com.kwetu.streetmoja"
+versionCode = "10"
+version     = "1.0.0" >
+
+	<name>Streetmoja</name>
+	
+	<description>Online shopping malll</description>
+	
+	<author href="https://kwetudesign.co.ke" email="kwetudesign@gmail.com">Antony muthii Assila</author>
+	
+	<icon src="icon.png" />
+	
+	<access origin="*" />
+	
+	<gap:splash src="splash.png" />
+	<gap:platform name="ios" />
+	<gap:platform name="android" />
+	<gap:platform name="winphone" />
+	
+	<gap:plugin name="com.plugin.datepicker" version="0.4.0" />
+	<gap:plugin name="org.apache.cordova.inappbrowser" version="0.5.2" />
+	<gap:plugin name="nl.x-services.plugins.socialsharing" version="4.3.8" />
+	<gap:plugin name="de.appplant.cordova.plugin.email-composer" version="0.8.1" />
+	<gap:plugin name="org.apache.cordova.geolocation" version="0.3.10" />
+
+</widget>
