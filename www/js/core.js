@@ -51,9 +51,7 @@ app.controller('pluginsController', function($scope, $compile){
 
     $scope.openWebsite = function(){
 		var ref = window.open('http://m.streetmoja.com/', '_blank', 'location=no', 'toolbar=no');
-		ref.addEventListener('loadstart', function() { alert('start: ' + event.url); });
-     ref.addEventListener('loadstop', function() { alert('stop: ' + event.url); });
-     ref.addEventListener('exit', function() { alert(event.type); });
+		
     }
     
     $scope.openWebsites = function(){
