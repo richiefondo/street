@@ -1107,3 +1107,5 @@ div.rn-carousel-indicator span.active {
 .rn-carousel-control.rn-carousel-control-next:before {
   content: ">";
 }
+#submit{ background-color: #09C;color:#FFF;border:solid 1px #CCCCCC;-webkit-border-radius:00px 05px 05px 00px;border-radius:00px 05px 05px 00px;}
+#q{border:solid 1px #CCCCCC;-webkit-border-radius:05px 00px 00px 05px; border-radius:05px 00px 00px 05px;padding-left:3px;}

@@ -24,6 +24,7 @@ ons-toolbar-button.white .toolbar-button--outline,
 ons-toolbar-button.white .toolbar-button--quiet {
   color: #fff;
 }
+
 .map-fullscreen-container {
   position: relative;
   height: 100%;
