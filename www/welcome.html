@@ -1,38 +1,50 @@
 <ons-page>
-  <ons-toolbar modifier="transparent">
-    <div class="right">
-      <ons-toolbar-button ng-click="menu.setMainPage('markers.html', {closeMenu: true})" ><ons-icon icon="ion-ios7-location" style="color: white; font-size: 28px;"></ons-icon></ons-toolbar-button>
-    </div>
-    <div class="left">
-      <ons-toolbar-button ng-click="menu.toggle()"><ons-icon icon="ion-navicon-round" style="color: white; font-size: 28px;" fixed-width="false"></ons-icon></ons-toolbar-button>
-    </div>
-  </ons-toolbar>
+	<ons-toolbar modifier="transparent">
+		<div class="right">
+			<ons-toolbar-button ng-click="menu.setMainPage('markers.html', {closeMenu: true})" >
+				<ons-icon icon="ion-ios7-location" style="color: white; font-size: 28px;"></ons-icon>
+			</ons-toolbar-button>
+		</div>
+		<div class="left">
+			<ons-toolbar-button ng-click="menu.toggle()">
+				<ons-icon icon="ion-navicon-round" style="color: white; font-size: 28px;" fixed-width="false"></ons-icon>
+			</ons-toolbar-button>
+		</div>
+	</ons-toolbar>
 
-  <div class="details-content glass">
-    <div class="welcome">
-      <h1 class="home-title">Streetmoja</h1>
-      <p class="subtitle">Anything Anytime.</p>
-      <form id="form1" name="form1" method="post" action="http://m.streetmoja.com/">
-  <table width="25%" border="0" align="center" cellpadding="0" cellspacing="0">
-    <tr>
-      <td align="right"><input name="q" type="text" id="q" size="30" placeholder="Search Products" value="" /></td>
-      <td width="72%" align="left"><input name="submit" type="submit" id="submit" value="Find" /></td>
-      <td width="72%"><input name="category" type="hidden" id="category"   value="All Categories" /></td>
-    </tr>
-  </table>
-</form>
-    </div>
-    
-    <div class="blur">
-      <img src="img/bg.png" class="bg">
-    </div>
-  </div>
+	<div class="details-content glass">
+		<div class="welcome">
+			<h1 class="home-title">Streetmoja</h1>
+			<p class="subtitle">
+				Anything Anytime.
+			</p>
+			<form id="form1" name="form1" method="post" action="http://m.streetmoja.com/">
+				<table width="25%" border="0" align="center" cellpadding="0" cellspacing="0">
+					<tr>
+						<td align="right">
+						<input name="q" type="text" id="q" size="30" placeholder="Search Products" value="" />
+						</td>
 
-  <svg version="1.1" xmlns="http://www.w3.org/2000/svg">
-   <filter id="blur">
-     <feGaussianBlur stdDeviation="10">
-     </filter>
-  </svg> 
+						<td width="72%" align="left">
+						<input name="submit" type="button" id="submit" value="Find"  onclick="opensearch()"/>
+						</td>
+						<td width="72%">
+						<input name="category" type="hidden" id="category"   value="All Categories" />
+						</td>
+					</tr>
+				</table>
+			</form>
+		</div>
 
+		<div class="blur">
+			<img src="img/bg.png" class="bg">
+		</div>
+	</div>
+
+	<svg version="1.1" xmlns="http://www.w3.org/2000/svg">
+		<filter id="blur">
+			<feGaussianBlur stdDeviation="10">
+		</filter>
+	</svg>
 
 </ons-page>

@@ -57,11 +57,16 @@ app.controller('pluginsController', function($scope, $compile){
     $scope.openWebsites = function(){
 		var ref = window.open('http://streetmoja.com/', '_blank', 'location=no');
     }
+      $scope.opensearch = function(){
+      	var q=getElementById('q').value;
+      	var c=getElementById('category').value;
+		var ref = window.open('http://m.streetmoja.com/?q='+q+'&&category='+c+'&&curr='+q+'&&cat='+c, '_blank', 'location=no');
+    }
 
 
     $scope.openSocialSharing = function(){
 		
-		window.plugins.socialsharing.share('Message, image and link','To buy n sell visit' , null, 'http://streetmoja.com');
+		window.plugins.socialsharing.share('Message, image and link','To buy n sell visit' , null, 'http://m.streetmoja.com');
 
 		/*
 		 * 	Social Sharing Examples
