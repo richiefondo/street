@@ -57,10 +57,10 @@ app.controller('pluginsController', function($scope, $compile){
     $scope.openWebsites = function(){
 		var ref = window.open('http://streetmoja.com/', '_blank', 'location=no');
     }
-      $scope.opensearch = function(){
-      	var q=getElementById('q').value;
-      	var c=getElementById('category').value;
-		var ref = window.open('http://m.streetmoja.com/?q='+q+'&&category='+c+'&&curr='+q+'&&cat='+c, '_blank', 'location=no');
+      $scope.openSearch = function(){
+      	var q=document.form1.q.value;
+      	var c=document.form1.category.value;
+		var ref = window.open('http://m.streetmoja.com/?curr='+ q +'&&cat='+c, '_blank', 'location=no');
     }
 
 
