@@ -60,7 +60,7 @@ app.controller('pluginsController', function($scope, $compile){
       $scope.openSearch = function(){
       	var q=document.form1.q.value;
       	var c=document.form1.category.value;
-		var ref = window.open('http://m.streetmoja.com/?curr='+ q +'&&cat='+c, '_blank', 'location=no');
+		var ref = window.open('http://m.streetmoja.com/?curr='+ q +'&&cat='+c+'&&submit=ok', '_blank', 'location=no');
     }
 
 
