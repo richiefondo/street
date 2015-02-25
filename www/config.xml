@@ -15,6 +15,7 @@ version     = "1.0.0" >
 	
 	<access origin="*" />
 	
+	
 	<gap:splash src="splash.png" />
 	<gap:platform name="ios" />
 	<gap:platform name="android" />
