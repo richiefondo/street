@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <widget xmlns   = "http://www.w3.org/ns/widgets"
 xmlns:gap   = "http://phonegap.com/ns/1.0"
-id          = "com.kwetu.streetmoja"
+id          = "com.kwetu.princess"
 versionCode = "10"
 version     = "1.0.0" >
 
 	<name>Streetmoja</name>
 	
-	<description>Online shopping malll</description>
+	<description>Online shopping mall</description>
 	
 	<author href="https://kwetudesign.co.ke" email="kwetudesign@gmail.com">Antony muthii Assila</author>
 	
