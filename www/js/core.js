@@ -50,18 +50,14 @@ app.controller('markersController', function($scope, $compile){
 app.controller('pluginsController', function($scope, $compile){
 
     $scope.openWebsite = function(){
-		var ref = window.open('http://m.streetmoja.com/', '_blank', 'location=no', 'toolbar=no');
+		var ref = window.open('http://princessaffair.co.ke/', '_blank', 'location=no', 'toolbar=no');
 		
     }
     
     $scope.openWebsites = function(){
-		var ref = window.open('http://streetmoja.com/', '_blank', 'location=no');
+		var ref = window.open('http://princessaffair.co.ke/', '_blank', 'location=no');
     }
-      $scope.openSearch = function(){
-      	var q=document.form1.q.value;
-      	var c=document.form1.category.value;
-		var ref = window.open('http://m.streetmoja.com/?curr='+ q +'&&cat='+c+'&&submit=ok', '_blank', 'location=no');
-    }
+      
 
 
     $scope.openSocialSharing = function(){
