@@ -22,9 +22,9 @@ version     = "1.0.0" >
 	<gap:platform name="winphone" />
 	
 	
-	<gap:plugin name="org.apache.cordova.inappbrowser" source="npm" />
-	<gap:plugin name="nl.x-services.plugins.socialsharing" source="npm" />
+	<gap:plugin name="cordova-plugin-inappbrowser" source="npm" />
+	<gap:plugin name="cordova-plugin-x-socialsharing" source="npm" />
 	
-	<gap:plugin name="org.apache.cordova.geolocation" source="npm" />
+	<gap:plugin name="cordova-plugin-geolocation" source="npm" />
 
 </widget>
