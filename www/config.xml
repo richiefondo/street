@@ -24,7 +24,7 @@ version     = "1.0.0" >
 	
 	<gap:plugin name="org.apache.cordova.inappbrowser" source="npm" />
 	<gap:plugin name="nl.x-services.plugins.socialsharing" source="npm" />
-	<gap:plugin name="de.appplant.cordova.plugin.email-composer" source="npm" />
+	
 	<gap:plugin name="org.apache.cordova.geolocation" source="npm" />
 
 </widget>
